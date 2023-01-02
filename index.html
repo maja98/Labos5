@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PWA</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+  <header>
+    <h3>Christmas messages</h3>
+  </header>
+  <main>
+    <div class="container">
+    </div>
+    <div class="contentarea">
+      <h3>Allow camera access and snap a photo!</h3>
+      <div class="camera">
+        <video id="video">Video stream not available.</video>
+        <button id="startbutton">Snap a photo.</button>
+      </div>
+      <canvas id="canvas"> </canvas>
+      <div class="output">
+        <img id="photo" alt="Photo goes here." />
+      </div>
+    </div>
+  </main>
+  <script src="/js/main.js"></script>
+  <noscript>You need to enable JavaScript to run this app and take a picture!</noscript>
+</body>
+</html>

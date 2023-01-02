@@ -1,0 +1,16 @@
+{
+    "name": "PWA",
+    "version": "1.0.0",
+    "description": "PWA",
+    "main": "main.js",
+    "scripts": {
+        "serve": "http-server -c-1 -p 8000"
+    },
+    "author": "",
+    "devDependencies": {
+        "http-server": "^0.10.0"
+    },
+    "dependencies": {
+        "i": "^0.3.7"
+    }
+}
